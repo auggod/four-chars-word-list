@@ -1,21 +1,25 @@
 {
-  "name": "word-list",
-  "version": "2.0.0",
-  "description": "List of English words",
+  "name": "four-chars-word-list",
+  "version": "1.0.0",
+  "description": "List of English words with only four chars",
   "license": "MIT",
-  "repository": "sindresorhus/word-list",
-  "author": {
+  "repository": "auggod/four-chars-word-list",
+  "authors": [{
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
-  },
+  }, {
+    "name": "@auggod",
+    "email": "hello@auggod.tech",
+    "url": "auggod.tech"
+  }],
   "engines": {
     "node": ">=4"
   },
   "scripts": {
     "prepublish": "node fetch-words.js",
     "pretest": "node fetch-words.js",
-    "test": "xo && ava"
+    "test": "standard && tape test.js"
   },
   "files": [
     "index.js",
@@ -32,8 +36,8 @@
     "dictionary"
   ],
   "devDependencies": {
-    "ava": "*",
     "got": "^6.7.1",
-    "xo": "*"
+    "standard": "^12.0.1",
+    "tape": "^4.9.2"
   }
 }
