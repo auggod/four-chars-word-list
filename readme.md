@@ -1,4 +1,4 @@
-> Subset of [English words](https://github.com/atebits/Words/blob/master/Words/en.txt)
+> Subset of [English words](https://raw.github.com/dwyl/english-words/master/words_alpha.txt)
 
 Maybe useful for you if you only need 4 chars
 
