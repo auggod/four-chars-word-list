@@ -1,6 +1,6 @@
 {
   "name": "four-chars-word-list",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "List of English words with only four chars",
   "license": "MIT",
   "repository": "auggod/four-chars-word-list",
