@@ -17,7 +17,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "prepublish": "node fetch-words.js",
+    "prepare": "node fetch-words.js",
     "pretest": "node fetch-words.js",
     "test": "standard && tape test.js"
   },
